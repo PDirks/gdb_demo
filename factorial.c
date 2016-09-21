@@ -9,7 +9,7 @@
  	int num;
  	do {
  	
- 	} while ( num < 0 )
+ 	} while ( num < 0 );
  	
  	int factorial;
  	int i;
@@ -17,7 +17,7 @@
  		factorial = factorial * i;
  	}// end for
  
- 	printf( "%d! = %d\n", num, factorial )
+ 	printf( "%d! = %d\n", num, factorial );
  
  	return 0;
  }// end main

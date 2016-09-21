@@ -9,7 +9,11 @@ int main(void){
 	
 	printf( "two\n" );
 		
-	*(ptr + 2) = 12;
+	int i;
+	for( i = 0; i <= 2; i++ ){
+		*(ptr+i) = 123123123;
+		printf("%d. %d\n", i, *(ptr+i));
+	}
 		
 	printf( "three\n" );
 	
