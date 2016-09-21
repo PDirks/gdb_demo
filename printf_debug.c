@@ -11,7 +11,7 @@ int main(void){
 		
 	int i;
 	for( i = 0; i <= 2; i++ ){
-		*(ptr+i) = 123123123;
+		
 		printf("%d. %d\n", i, *(ptr+i));
 	}
 		
